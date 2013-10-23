@@ -1,0 +1,109 @@
+﻿
+body {
+    font-family: 'Roboto' , sans-serif;
+}
+
+
+.Content {
+    width: 960px;
+    margin:0 auto;
+}
+
+.Vitals {
+    width: 950px
+}
+
+.VitalDiv {
+    width: 233px;
+    height: 235px;
+    display: inline-block;
+    position: relative;
+}
+.ECGDiv {
+    width: 950px; 
+    height: 235px;
+    display: inline-block;
+    position: relative;
+}
+
+.ChartOverlay {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+    color: #FFFFFF;
+    width: 195px;
+}
+.Title {
+    font-size: 20px;
+}
+.Reading {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 20px;
+    height: 60px;
+}
+.Desc{
+    
+    text-align: center;
+    font-size: 14px;
+    height: 15px;
+}
+.LastReading {
+    font-size: 10px;
+    position: relative;
+    top: 55px;
+}
+
+.DrName {
+    font-size: 28px;
+    color: #bdbdbd;
+}
+
+.PatientName {
+    font-size: 48px;
+}
+
+.PatientLabel {
+    font-size: 14px;
+    color: #a4a4a4;
+}
+.PatientLabelData {
+    font-size: 48px;
+}
+.PatientLabelDesc {
+    font-size: 18px;
+}
+.PatientStats {
+    width: 800px;
+}
+.PatientStat {
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-right-color: #ebebeb;
+    border-bottom-color: #ebebeb;
+    float: left;
+    padding-right: 50px;
+    padding-left: 10px;
+}
+.PatientStatLast {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #ebebeb;
+    float: left;
+    padding-right: 50px;
+    padding-left: 10px;
+}
+.PatientMeds {
+    padding-left: 10px;
+    height: 80px;
+}
+
+.MedData {
+    font-size: 18px;
+}
